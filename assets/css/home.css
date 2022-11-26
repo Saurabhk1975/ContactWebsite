@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+}
+#page-heading{
+    text-align: center;
+    margin-top: 25px;
+    color: gray;
+}
+.clist{
+    border: 5px;
+    text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  
+}
+.insider{
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(0, 1, 0);
+    background-color: rgb(114, 206, 163);
+    margin: 2px;
+    padding: 10px;
+    
+}
+p{
+    
+    display: inline;
+    margin-left: 35px;
+    margin-right: 35px;
+    
+
+}
+
+ .temp{
+
+    text-align: center;
+    list-style: none;
+    margin-bottom: 5px;
+    
+
+} 
+.form{
+    margin-top: 10px;
+    text-align: center;
+}
+.btn{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+.area{
+    width:100px;
+    padding: 2px 4px;
+    text-decoration: none;
+    margin: 2px 2px;
+    cursor: pointer;
+    
+}
+.insider:hover{
+    transition: ease-in-out;
+    color: red;
+}
